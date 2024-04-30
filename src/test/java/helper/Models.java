@@ -12,7 +12,7 @@ public class Models {
         request = RestAssured.given() // disini dimasukin deh yang di butuhkan variabale
                 .header("Content-type", "application/json")
                 .header("Accept", "application/json")
-                .header("Authorization", "Bearer 76faab1ff917d8d72e6a538fc435ab8a5a718198b4dc431ee8e8d3726702876e");
+                .header("Authorization", "Bearer d361ff35b18930da63c2461abe6b56e66d4bbfb616d840e2c4d99cd7bbe75c73");
     }
 
     public static Response getListUsers(String endpoint){

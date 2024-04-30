@@ -39,7 +39,6 @@ public class ApiStep {
 
     @Then("Validation response json whit JSONSchema {string}")
     public void validationResponseJsonWhitJSONSchema(String fileName) {
-        apiPages.validationResponseJsonWhitJSONSchema();
+        apiPages.validationResponseJsonWhitJSONSchema(fileName);
     }
-
 }
